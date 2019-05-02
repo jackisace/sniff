@@ -18,6 +18,16 @@ def hex_bits(a):
     return endstr
 
 
+#protocol = binToInt(packetbits)
+def binToInt(a):
+    return int(a, 2)
+
+
+
+
+
+
+
 
 
 class TestConvertMethods(unittest.TestCase):
